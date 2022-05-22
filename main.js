@@ -1,17 +1,3 @@
-// function computerPlay (arr) {
-//     const randomChoice = Math.floor(Math.random() * arr.length)
-//     const item = arr[randomChoice]
-
-//     return item
-// }
-
-// const array = ["Rock", "Paper", "Scissors"]
-// const result = computerPlay(array)
-
-// console.log(result)
-
-
-
 const choices = [ "rock", "paper", "scissors" ]
 const winners = []
 
