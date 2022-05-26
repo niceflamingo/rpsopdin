@@ -3,6 +3,7 @@ let playerScore = 0
 
 function game() {
   for (let i = 0; i < 5; i++) {
+    // look up how to not count a "round" if a value other than rock/paper/scissors has been added
     let computerPlay = function () {
       const choices = ["rock", "paper", "scissors"]
       return choices[Math.floor(Math.random() * choices.length)]
@@ -14,7 +15,8 @@ function game() {
       playerSelection = prompt("Rock, Paper, or Scissors?")
       playerSelection = playerSelection.toLowerCase()
       return playerSelection
-    } // add a loop that makes it so that if another word is entered it prompts to user to type rock/paper/scissors
+    } // look up how to add a loop that makes it so that if another word is entered it prompts to user to type rock/paper/scissors
+    // while or for? maybe
 
     playerSelection = playerInput()
 
