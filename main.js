@@ -1,3 +1,4 @@
+// Rock Paper Scissors game to played within Console - The Odin Project Exercise
 let computerScore = 0
 let playerScore = 0
 
